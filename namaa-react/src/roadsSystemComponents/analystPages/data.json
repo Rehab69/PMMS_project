@@ -1,0 +1,18 @@
+[
+
+    {"roadId":1,"roadName":"طريق طلعت مصطفى","noSection":8,"noIntersection":3,"noSamples":30,"alligator":30,"bleeding":10,
+        "blocking":15,"edge":22,"rutting":33,"potholes":25,"longtrans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+        {"roadId":2,"roadName":"طريق الربيع","noSection":8,"noIntersection":3,"noSamples":30,"alligator":30,"bleeding":10,
+            "blocking":15,"edge":22,"rutting":33,"potholes":25,"longtrans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+            {"roadId":3,"roadName":"طريق الزهور","noSection":8,"noIntersection":3,"noSamples":30,"alligator":30,"bleeding":10,
+                "blocking":15,"edge":22,"rutting":33,"potholes":25,"longtrans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+                {"roadId":4,"roadName":"طريق مدينتى","noSection":8,"noIntersection":3,"noSamples":30,"alligator":30,"bleeding":10,
+                    "blocking":15,"edge":22,"rutting":33,"potholes":25,"longtrans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+                    {"roadId":5,"roadName":"طريق الوادى","noSection":8,"noIntersection":3,"noSamples":30,"alligator":30,"bleeding":10,
+                        "blocking":15,"edge":22,"rutting":33,"potholes":25,"longtrans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+                        {"roadId":6,"roadName":"2طريق طلعت مصطفى","noSection":8,"noIntersection":3,"noSamples":30,"alligator":30,"bleeding":10,
+                            "blocking":15,"edge":22,"rutting":33,"potholes":25,"longtrans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false}
+
+ 
+
+]

@@ -1,0 +1,68 @@
+th {
+  background: white;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+  text-align: center !important;
+}
+
+
+table {
+  text-align: left;
+  position: relative;
+  border-collapse: collapse; 
+}
+
+tr:hover{
+    font-weight:600;
+    cursor: pointer;
+}
+
+
+.fade {
+  opacity: 1 !important;
+}
+
+.card.card-primary.card-tabs{
+  margin: 0px 2rem;
+  
+}
+.card-primary:not(.card-outline)>.card-header {
+     background-color:  #3a3f48 !important;
+}
+
+
+.card.card-primary.card-tabs div ul li{
+  font-size: initial;
+  font-weight: 700;
+}
+
+.card.card-primary.card-tabs div ul li{
+  cursor: pointer !important;
+  
+}
+
+/* .card-primary:not(.card-outline)>.card-header {
+  background-color: #2a3f5a !important;
+}
+ */
+.modal-open {
+  overflow: auto !important;
+}
+.hoverOnRow:hover{
+  cursor: pointer !important;
+  background-color: #3a3f48 !important;
+}
+
+#root > div > div > div > main > div > div > div.info > div > div.card-body.map-card-body > div:nth-child(1) > div{
+  padding: 0px !important
+}
+#root > div > div > div > main > div > div > div.info > div > div.card-body.map-card-body > div.MaintenanceTable > div > table > thead > tr{
+  height: 5rem !important;
+}
+#root > div > div > div > main > div > div > div.info > div > div.card-body.map-card-body > div:nth-child(1) > div{
+  padding: 0px !important
+}
+#root > div > div > div > main > div > div > div.info > div > div.card-body.map-card-body > div.MaintenanceTable > div > table > thead > tr{
+  height: 5rem !important;
+}

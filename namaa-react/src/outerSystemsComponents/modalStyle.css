@@ -1,0 +1,11 @@
+.modal-header {
+  background-color: " rgb(32, 32, 42)";
+  border-bottom-color: "rgb(154,44,96)";
+}
+.modal-body {
+  background-color: "rgb(35, 36, 45)";
+}
+.modal-footer {
+  border-top-color: "rgb(154,44,96)";
+  background-color: "rgb(35, 36, 45)";
+}

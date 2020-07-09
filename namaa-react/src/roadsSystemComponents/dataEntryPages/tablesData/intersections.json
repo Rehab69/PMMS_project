@@ -1,0 +1,83 @@
+[
+ {
+   "OBJECTID": 1,
+   "Shape_Length": 226.2891231,
+   "Shape_Area": 4074.905064,
+   "interId": 3,
+   "cityId": 1,
+   "route1Id": 5,
+   "route2Id": 4
+ },
+ {
+   "OBJECTID": 2,
+   "Shape_Length": 251.5032093,
+   "Shape_Area": 5033.582587,
+   "interId": 2,
+   "cityId": 1,
+   "route1Id": 5,
+   "route2Id": 3
+ },
+ {
+   "OBJECTID": 3,
+   "Shape_Length": 244.350371,
+   "Shape_Area": 4751.340356,
+   "interId": 1,
+   "cityId": 1,
+   "route1Id": 2,
+   "route2Id": 5
+ },
+ {
+   "OBJECTID": 4,
+   "Shape_Length": 286.8832787,
+   "Shape_Area": 6549.386303,
+   "interId": 4,
+   "cityId": 1,
+   "route1Id": 4,
+   "route2Id": 1
+ },
+ {
+   "OBJECTID": 6,
+   "Shape_Length": 286.0705847,
+   "Shape_Area": 6512.332155,
+   "interId": 5,
+   "cityId": 1,
+   "route1Id": 3,
+   "route2Id": 1
+ },
+ {
+   "OBJECTID": 7,
+   "Shape_Length": 190.0597068,
+   "Shape_Area": 2874.552506,
+   "interId": 6,
+   "cityId": 1,
+   "route1Id": 2,
+   "route2Id": 1
+ },
+ {
+   "OBJECTID": 9,
+   "Shape_Length": 288.01851,
+   "Shape_Area": 6601.322265,
+   "interId": 8,
+   "cityId": 1,
+   "route1Id": 6,
+   "route2Id": 4
+ },
+ {
+   "OBJECTID": 10,
+   "Shape_Length": 281.4385931,
+   "Shape_Area": 6303.147038,
+   "interId": 7,
+   "cityId": 1,
+   "route1Id": 6,
+   "route2Id": 2
+ },
+ {
+   "OBJECTID": 12,
+   "Shape_Length": 188.7311877,
+   "Shape_Area": 2834.50666,
+   "interId": 8,
+   "cityId": 1,
+   "route1Id": 2,
+   "route2Id": 4
+ }
+]

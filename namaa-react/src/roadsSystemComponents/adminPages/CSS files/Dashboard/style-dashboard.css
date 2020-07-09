@@ -1,0 +1,659 @@
+
+  
+  
+  /* *****Sidebar****/
+  #sidenav{
+    padding: 0;
+  }
+  ul .nav,.flex-column{
+    padding: 0;
+  }
+  .sidebar {
+    position: fixed;
+    top: 2vw;
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    padding: 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  }
+  
+  .sidebar-sticky {
+    position: absolute;
+    /*top: 50px; /* Height of navbar */
+    height: calc(100vh - 50px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+  
+  .sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+    margin: 0.5vw;
+    font-size: 1.6rem;
+  }
+  
+  .sidebar .nav-link .feather {
+    margin-right: 4px;
+    color: #999;
+  }
+  
+  .sidebar .nav-link.active {
+    color: #007bff;
+  }
+  
+  .sidebar .nav-link:hover .feather,
+  .sidebar .nav-link.active .feather {
+    color: inherit;
+
+  }
+li.nav-item a.nav-link:hover{
+      background-color:rgb(212, 203, 203);
+
+  }
+  
+  .sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+  
+  /*
+   * Navbar
+   */
+  
+  .navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, .25);
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+  }
+  
+  .navbar .form-control {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+  }
+  
+  .form-control-dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+  }
+  
+  .form-control-dark:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+  }
+  
+  /*
+   * Utilities
+   */
+  
+  .border-top { border-top: 1px solid #e5e5e5; }
+  .border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+  
+/*---dashboard****/
+/* .container-fluid{
+  direction: rtl;
+  position: fixed;
+} */
+.sidebar-sticky{
+  text-align: center;
+}
+.header-table{
+  text-align: center;
+  padding: 2rem;
+}
+h1{
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:-2px;
+  font-size:2.5em;
+  margin:20px 0;
+}
+main{
+  margin-top: 2rem;
+}
+
+
+table{
+  border-collapse:collapse;
+  width:100%;
+}
+
+.table-responsive{
+  text-align: center;
+}
+
+.blue{
+  border:2px solid #000;
+}
+
+.blue thead{
+  background:slateblue;
+}
+
+
+thead{
+  color:#000;
+}
+
+th,td{
+  text-align:center;
+  padding:5px 0;
+}
+
+/* tbody tr:nth-child(even){
+  background:#ECF0F1;
+} */
+
+tbody tr.forHover:hover{
+background-color:cornflowerblue !important;
+  color: whitesmoke;
+}
+
+.fixed{
+  top:0;
+  position:fixed;
+  width:auto;
+  display:none;
+  border:none;
+}
+
+/*Charts*****************/
+#chart {
+  max-width: 650px;
+  margin: 35px auto;
+}
+
+
+
+/*******New SideNav********/
+/* Shrinking the sidebar from 250px to 80px and center aligining its content*/
+#sidebar.active {
+  min-width: 80px;
+  max-width: 80px;
+  text-align: center;
+}
+
+/* Toggling the sidebar header content, hide the big heading [h3] and showing the small heading [strong] and vice versa*/
+#sidebar .sidebar-header strong {
+  display: none;
+}
+#sidebar.active .sidebar-header h3 {
+  display: none;
+}
+#sidebar.active .sidebar-header strong {
+  display: block;
+}
+
+#sidebar ul li a {
+  text-align: left;
+}
+
+#sidebar.active ul li a {
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 0.85em;
+}
+
+#sidebar.active ul li a i {
+  margin-right:  0;
+  display: block;
+  font-size: 1.8em;
+  margin-bottom: 5px;
+}
+
+/* Same dropdown links padding*/
+#sidebar.active ul ul a {
+  padding: 10px !important;
+}
+
+/* Changing the arrow position to bottom center position, 
+ translateX(50%) works with right: 50% 
+ to accurately  center the arrow */
+#sidebar.active .dropdown-toggle::after {
+  top: auto;
+  bottom: 10px;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+@media (max-width: 768px) {
+  /* 80px and its content aligned to centre. Pushing it off the screen with the
+     negative left margin
+  */
+  #sidebar.active {
+      min-width: 80px;
+      max-width: 80px;
+      text-align: center;
+      margin-left: -80px !important;
+  }
+
+
+  /* Reappearing the sidebar on toggle button click */
+  #sidebar {
+      margin-left: 0; 
+  }
+
+
+  /* Toggling the sidebar header content, 
+     hide the big heading [h3] and showing the small heading [strong] and vice versa
+  */
+  #sidebar .sidebar-header strong {
+      display: none;
+  }
+  #sidebar.active .sidebar-header h3 {
+      display: none;
+  }
+  #sidebar.active .sidebar-header strong {
+      display: block;
+  }
+
+  /* Downsize the navigation links font size */
+  #sidebar.active ul li a {
+      padding: 20px 10px;
+      font-size: 0.85em;
+  }
+
+  #sidebar.active ul li a i {
+      margin-right:  0;
+      display: block;
+      font-size: 1.8em;
+      margin-bottom: 5px;
+  }
+
+  /* Adjust the dropdown links padding*/
+  #sidebar.active ul ul a {
+      padding: 10px !important;
+  }
+
+  /* Changing the arrow position to bottom center position, 
+    translateX(50%) works with right: 50% 
+    to accurately  center the arrow */
+  .dropdown-toggle::after {
+      top: auto;
+      bottom: 10px;
+      right: 50%;
+      -webkit-transform: translateX(50%);
+      -ms-transform: translateX(50%);
+      transform: translateX(50%);
+  }
+}
+
+
+div .w-100{
+  width: 20vw !important;
+}
+
+
+.subtitle{
+  font-size: 13px;
+  font-weight: bold !important;
+}
+li ul#region, ul#bridges, ul#major{
+  padding: 0px !important;
+}
+.subtitle:hover{
+  background-color: rgb(224, 227, 239)!important;
+}
+
+div.btn-group .btn,.btn-outline-secondary, div.dropdown .btn,.btn-outline-secondary{
+  font-size: larger;
+}
+
+/*********Card***********/
+.card-counter{
+  box-shadow: 2px 2px 10px #DADADA;
+  margin: 5px;
+  padding: 20px 10px;
+  background-color: #fff;
+  height: 100px;
+  border-radius: 5px;
+  transition: .3s linear all;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.card-counter:hover{
+  box-shadow: 4px 4px 20px #DADADA;
+  transition: .3s linear all;
+}
+
+.card-counter.primary{
+  background-color: #007bff;
+  color: #FFF;
+}
+
+.card-counter.danger{
+  background-color: #ef5350;
+  color: #FFF;
+}  
+
+.card-counter.success{
+  background-color: #66bb6a;
+  color: #FFF;
+}  
+
+.card-counter.info{
+  background-color: #26c6da;
+  color: #FFF;
+}  
+
+.card-counter i{
+  font-size: 5em;
+  opacity: 0.2;
+}
+
+.card-counter .count-numbers{
+  position: absolute;
+  right: 35px;
+  top: 20px;
+  font-size: 32px;
+  display: block;
+}
+
+.card-counter .count-name{
+  position: absolute;
+  right: 35px;
+  top: 65px;
+  font-style: italic;
+  text-transform: capitalize;
+  opacity: 0.5;
+  display: block;
+  font-size: 18px;
+}
+
+
+/*************UserManager page*****************/
+.headTable{
+  text-align: center;
+  color: #333;
+}
+
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+.tableWrapper{
+  border: solid;
+  border-width:5px ;
+  border-color: wheat;
+  border-radius: 15px;
+}
+
+
+
+/**********From Template**********/
+.table-wrapper {
+  background: #fff;
+  padding: 20px;
+  margin: 30px 0;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.table-title {
+  padding-bottom: 10px;
+  margin: 0 0 10px;
+}
+.table-title h2 {
+  margin: 8px 0 0;
+  font-size: 22px;
+}
+.search-box {
+  position: relative;        
+  float: right;
+}
+.search-box input {
+  height: 34px;
+  border-radius: 20px;
+  padding-left: 35px;
+  border-color: #ddd;
+  box-shadow: none;
+}
+.search-box input:focus {
+border-color: #3FBAE4;
+}
+.search-box i {
+  color: #a0a5b1;
+  position: absolute;
+  font-size: 19px;
+  top: 8px;
+  left: 10px;
+}
+/* 
+table.table tr th, table.table tr td {
+  border-color: #e9e9e9;
+}
+table.table-striped tbody tr:nth-of-type(odd) {
+background-color: #fcfcfc;
+} */
+table.table-striped.table-hover tbody tr:hover {
+background: #f5f5f5;
+}
+table.table th i {
+  font-size: 13px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+table.table td:last-child {
+  width: 130px;
+}
+table.table td button {
+  color: #a0a5b1;
+  display: inline-block;
+  margin: 0 5px;
+}
+table.table td button.view {
+  color: #03A9F4;
+}
+table.table td button.edit {
+  color: #FFC107;
+}
+table.table td button.delete {
+  color: #E34724;
+}
+table.table td i {
+  font-size: 19px;
+}    
+.pagination {
+  float: right;
+  margin: 0 0 5px;
+}
+.pagination li a {
+  border: none;
+  font-size: 95%;
+  width: 30px;
+  height: 30px;
+  color: #999;
+  margin: 0 2px;
+  line-height: 30px;
+  border-radius: 30px !important;
+  text-align: center;
+  padding: 0;
+}
+.pagination li a:hover {
+  color: #666;
+}	
+.pagination li.active a {
+  background: #03A9F4;
+}
+.pagination li.active a:hover {        
+  background: #0397d6;
+}
+.pagination li.disabled i {
+  color: #ccc;
+}
+.pagination li i {
+  font-size: 16px;
+  padding-top: 6px
+}
+.hint-text {
+  float: left;
+  margin-top: 6px;
+  font-size: 95%;
+}    
+
+td{
+  text-align: center;
+}
+
+
+/**/
+.input-group .form-control.form-control-selectpicker {
+  padding: 0;
+}
+.input-group .form-control.form-control-selectpicker > .btn-group.bootstrap-select {
+  width: 100%;
+}
+.input-group .form-control-6 {
+  width: 50%;
+}    
+.input-group .form-control.form-control-selectpicker .btn-group .btn {
+  border: 0;
+}
+.input-group .form-control.form-control-selectpicker .btn-group.open .btn {
+  border-radius: 0;
+}
+
+
+/*-----Left-Right Buttons----*/
+.btn-label {position: relative;left: -12px;display: inline-block;padding: 6px 12px;background: rgba(0,0,0,0.15);border-radius: 3px 0 0 3px;}
+.btn-labeled {padding-top: 0;padding-bottom: 0;}
+.btn { margin-bottom:10px; }
+
+body{
+  background-color: #333 !important;
+}
+
+/*-----dashboard btns----*/
+ .majordash-btn{
+   color: wheat;
+   font-size: medium;
+
+/*   
+background: linear-gradient(45deg,#4799eb 0%,#4280b4 100%)!important;
+border-color: #4280b4!important;
+background: #4280b4!important;
+font-size: larger; */
+
+} 
+.DashBtn{
+
+  height: fit-content;
+  font-size: large;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  white-space: break-spaces;
+  margin: 0px;
+}
+
+/*-------------Content of admin page------------*/
+
+/*----small Cards*/
+
+.count-name.smallcard{
+  font-size: small;
+  color: black;
+  font-weight: bolder;
+  position: initial;
+  padding-bottom: 1rem;
+  padding-left: 0.2rem;
+}
+.iconInSmallCards{
+  font-size: smaller;
+}
+
+/*---Charts frame---*/
+
+.card-title{
+  font-size: 2.1rem !important;
+
+}
+
+.table.table-striped.table-valign-middle tbody tr td{
+  font-size: 1.5rem;
+}
+.table.table-striped.table-valign-middle thead tr th{
+font-size: 1.2rem;
+font-weight: bold;
+}
+
+
+#SvgjsSvg1093 > foreignObject > div > div:nth-child(1) > span.apexcharts-legend-text{
+  color: white !important;
+  margin-right: 1rem !important;
+}
+#SvgjsSvg1093 > foreignObject > div > div:nth-child(2) > span.apexcharts-legend-text{
+  color: white !important;
+  margin-right: 1rem !important;
+}
+#SvgjsSvg1129 > foreignObject > div > div:nth-child(2) > span.apexcharts-legend-text{
+  color: white !important;
+  margin-right: 1rem !important;
+}
+#SvgjsSvg1129 > foreignObject > div > div:nth-child(1) > span.apexcharts-legend-text{
+  color: white !important;
+  margin-right: 1rem !important;
+}
+
+
+span.apexcharts-legend-text{
+  color: '#FFFFFF' !important;
+}
+
+
+#Columnchart1 > div:nth-child(1){
+  min-height: 100px !important;
+
+}
+
+#apexchartscl4drab1{
+  height: 100px !important;
+}
+
+#page-content2 > div > div > div > div.col > div.row > div.col-5 > div > div > div.esri-view-root > div.esri-ui > div.esri-ui-inner-container.esri-ui-corner-container > div.esri-ui-bottom-left.esri-ui-corner > div > div.esri-expand__container.esri-expand__container--expanded{
+    bottom: 0;
+    height: 33%;
+    background: #fff;
+    z-index: 1;
+    overflow: auto;
+}
+
+.esri-view-width-xsmall .esri-expand--auto .esri-expand__container--expanded {
+  position: relative !important;
+}
+.esri-view-width-xsmall .esri-ui-top-right .esri-expand--auto .esri-expand__container--expanded, .esri-view-width-xsmall .esri-ui-bottom-right .esri-expand--auto .esri-expand__container--expanded {
+  width: 100% !important;
+}
+
+#page-content2 > div > div > div > div.col > div.row > div.col-5 > div > div > div.esri-view-root > div.esri-ui > div.esri-ui-inner-container.esri-ui-corner-container > div.esri-ui-bottom-left.esri-ui-corner{
+  max-width: 50% !important;
+}
+
+.esri-view-width-xsmall .esri-expand--auto .esri-expand__mask--expanded {
+  position: fixed !important;
+  right: 0 !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  bottom: 0 !important;
+  opacity: 0.8 !important;
+  z-index: 0 !important;
+  background-color: initial !important;
+}

@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(10, 11, 24);
+}
+.backstretch {
+  background-image: url(./outerSystems_assets/r33.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.col-sm-12 h1 {
+  text-shadow: 5px 1px 7px black;
+  font-family: c, Helvetica, sans-serif;
+}
+.fa-road {
+  color: rgb(70, 56, 194);
+}
+.col-sm-9 h3 {
+  padding-top: 15px;
+}
+.features-box-ico img {
+  height: 60px;
+}
+.box-icon {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+.text-sys {
+  padding-left: 0px;
+  margin-left: 0px;
+}

@@ -1,0 +1,34 @@
+[
+
+    {"regionId":1,"noStreets":8,"population":150,"area":5,"alligator":30,"bleeding":10,
+        "blocking":15,"edge":22,"rutting":33,"potholes":25,"long&trans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+        {"regionId":2,"noStreets":8,"population":150,"area":5,"alligator":30,"bleeding":10,
+            "blocking":15,"edge":22,"rutting":33,"potholes":25,"long&trans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+            {"regionId":3,"noStreets":8,"population":150,"area":5,"alligator":30,"bleeding":10,
+                "blocking":15,"edge":22,"rutting":33,"potholes":25,"long&trans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+                {"regionId":4,"noStreets":8,"population":150,"area":5,"alligator":30,"bleeding":10,
+                    "blocking":15,"edge":22,"rutting":33,"potholes":25,"long&trans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+                    {"regionId":5,"noStreets":8,"population":150,"area":5,"alligator":30,"bleeding":10,
+                        "blocking":15,"edge":22,"rutting":33,"potholes":25,"long&trans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+                        {"regionId":6,"noStreets":8,"population":150,"area":5,"alligator":30,"bleeding":10,
+                            "blocking":15,"edge":22,"rutting":33,"potholes":25,"long&trans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+                            {"regionId":7,"noStreets":8,"population":150,"area":5,"alligator":30,"bleeding":10,
+                                "blocking":15,"edge":22,"rutting":33,"potholes":25,"long&trans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+                                {"regionId":8,"noStreets":8,"population":150,"area":5,"alligator":30,"bleeding":10,
+                                    "blocking":15,"edge":22,"rutting":33,"potholes":25,"long&trans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+                                    {"regionId":9,"noStreets":8,"population":150,"area":5,"alligator":30,"bleeding":10,
+                                        "blocking":15,"edge":22,"rutting":33,"potholes":25,"long&trans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+                                        {"regionId":10,"noStreets":8,"population":150,"area":5,"alligator":30,"bleeding":10,
+                                            "blocking":15,"edge":22,"rutting":33,"potholes":25,"long&trans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+                                            {"regionId":11,"noStreets":8,"population":150,"area":5,"alligator":30,"bleeding":10,
+                                                "blocking":15,"edge":22,"rutting":33,"potholes":25,"long&trans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+                                                {"regionId":12,"noStreets":8,"population":150,"area":5,"alligator":30,"bleeding":10,
+                                                    "blocking":15,"edge":22,"rutting":33,"potholes":25,"long&trans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+                                                    {"regionId":13,"noStreets":8,"population":150,"area":5,"alligator":30,"bleeding":10,
+                                                        "blocking":15,"edge":22,"rutting":33,"potholes":25,"long&trans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false},
+                                                        {"regionId":14,"noStreets":8,"population":150,"area":5,"alligator":30,"bleeding":10,
+                                                            "blocking":15,"edge":22,"rutting":33,"potholes":25,"long&trans":33,"udi":45,"pavmentcondition":"fair","city":"مدينتى","isUdi":false}
+                                                                     
+ 
+
+]

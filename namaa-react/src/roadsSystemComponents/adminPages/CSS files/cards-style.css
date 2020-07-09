@@ -1,0 +1,23 @@
+p.d-flex.flex-column span{
+    font-size: larger;
+    font-weight: 700;
+}
+
+
+
+ .col-md-3 {
+
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+
+/* svg{
+    width: 553;
+    height: 30vh;
+    transform: translate(0, 0);
+}
+foreignObject {
+    
+    width: 553;
+    height: 30vh;
+} */

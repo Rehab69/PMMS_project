@@ -1,0 +1,37 @@
+{
+    "Section_Samples": [
+        {
+            "id": 1,
+            "sampleId": 7,
+            "sectionId": 3,
+            "road_name": "",
+            "roadId": null,
+            "Survey_No": null,
+            "Collected_Date": null,
+            "Survey_Responsible": null,
+            "dataEntryConfirmed": false,
+            "Alligator_crack_low": null,
+            "Alligator_crack_meduim": null,
+            "Alligator_crack_high": null,
+            "Bleeding_low": null,
+            "Bleeding_low_meduim": null,
+            "Bleeding_high": null,
+            "Blocking_cracks_low": null,
+            "Blocking_cracks_meduim": null,
+            "Blocking_cracks_high": null,
+            "Edge_cracking_low": null,
+            "Edge_cracking_meduim": null,
+            "Edge_cracking_high": null,
+            "Rutting_low": null,
+            "Rutting_meduim": null,
+            "Rutting_high": null,
+            "Long_Trans_low": null,
+            "Long_Trans_meduim": null,
+            "Long_Trans_high": null,
+            "Comment": "",
+            "Images": null,
+            "Entry_Date": null,
+            "Data_Entry_Responsible": ""
+        }
+    ]
+}

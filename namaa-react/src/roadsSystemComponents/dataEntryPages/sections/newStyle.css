@@ -1,0 +1,7 @@
+.header .sticky-top {
+  background-color: "rgb(44, 44, 52)";
+  border-bottom-color: " rgb(10, 11, 24)";
+  padding-left: "3vw";
+  z-index: "auto";
+  font-size: "20px";
+}
